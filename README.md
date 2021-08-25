@@ -11,6 +11,10 @@ The library can be used simply by importing the Python file to your project.
 ```python
 import max6675
 ```
+Or, for an easier usage and more Arduino-like, you can import it like this:
+```python
+from max6675 import *
+```
 
 ## Usage
 The usage of the library is simple. Follow the steps:
