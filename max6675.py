@@ -63,7 +63,7 @@ class max6675:
 
 
     def spiread(self):
-        d = b''
+        d = 0
 
         for i in range(7, -1, -1):
             digitalWrite(self.sclk, 'LOW')
