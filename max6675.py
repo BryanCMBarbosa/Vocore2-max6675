@@ -7,11 +7,11 @@ from vocoreGPIO import *
 class max6675:
     '''
     *Inicialize a MAX6675 sensor*
-    SCLK The Arduino pin connected to Clock
-    CS The Arduino pin connected to Chip Select
-    MISO The Arduino pin connected to Data Out
+    SCLK The Vocore 2 pin connected to Clock
+    CS The Vocore 2 pin connected to Chip Select
+    MISO The Vocore 2 pin connected to Data Out
     '''
-    def __init__(self, SCLK:int, CS:int, MISO:int):
+    def __init__(self, SCLK, CS, MISO):
         self.sclk = SCLK
         self.cs = CS
         self.miso = MISO
