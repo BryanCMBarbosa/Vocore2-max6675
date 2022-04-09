@@ -1,4 +1,4 @@
-# Vocore2 max6675 thermocouple module
+# Vocore 2 max6675 thermocouple module library
 
 This is an Arduino inspired library for interfacing between Vocore2 and the module max6675 for thermocouples.
 
